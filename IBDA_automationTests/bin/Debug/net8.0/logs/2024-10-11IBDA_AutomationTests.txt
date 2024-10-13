@@ -1,0 +1,10 @@
+2024-10-11 18:18:04.4126|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozpoczęcie konfiguracji testu
+2024-10-11 18:18:07.4183|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Utworzono usera : test_operatorIBDA
+2024-10-11 18:18:14.4395|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|-------------------Test zakończono-------------------
+2024-10-11 18:18:59.8222|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozpoczęcie konfiguracji testu
+2024-10-11 18:19:02.8288|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Utworzono usera : test_operatorIBDA
+2024-10-11 18:19:04.1436|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Logowanie użytkownika: test_operatorIBDA
+2024-10-11 18:19:07.1695|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wyświetlona strona: nAxiom
+2024-10-11 18:19:10.2049|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozwinięto menu Rejestracja
+2024-10-11 18:19:13.2609|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+2024-10-11 18:19:18.3979|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|-------------------Test zakończono-------------------
