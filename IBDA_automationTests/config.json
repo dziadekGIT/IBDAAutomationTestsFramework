@@ -1,0 +1,34 @@
+{
+  "test_operatorIBDA": {
+    "username": "test_operatorIBDA",
+    "password": "set before tests"
+  },
+  "test_kierownikLAB": {
+    "username": "test_kierownikLAB",
+    "password": "set before tests"
+  },
+  "test_OpiekunIBDA": {
+    "username": "test_OpiekunIBDA",
+    "password": "set before tests"
+  },
+  "test_PracownikBWG": {
+    "username": "test_PracownikBWG",
+    "password": "set before tests"
+  },
+  "test_PracownikSAP": {
+    "username": "test_PracownikSAP",
+    "password": "set before tests"
+  },
+  "test_PracownikCBIBDA": {
+    "username": "test_PracownikCBIBDA",
+    "password": "set before tests"
+  },
+  "test_koordynatorWydz": {
+    "username": "test_koordynatorWydz",
+    "password": "set before tests"
+  },
+  "test_KierownikDP": {
+    "username": "test_KierownikDP",
+    "password": "set before tests"
+  }
+}

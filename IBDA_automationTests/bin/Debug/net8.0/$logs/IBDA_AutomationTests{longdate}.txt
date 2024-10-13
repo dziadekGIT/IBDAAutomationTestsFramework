@@ -1,0 +1,7 @@
+2024-10-11 18:14:03.6742 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Rozpoczęcie konfiguracji testu
+2024-10-11 18:14:06.6803 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Utworzono usera : test_operatorIBDA
+2024-10-11 18:14:08.2385 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Logowanie użytkownika: test_operatorIBDA
+2024-10-11 18:14:11.2705 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wyświetlona strona: nAxiom
+2024-10-11 18:14:14.3138 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Rozwinięto menu Rejestracja
+2024-10-11 18:14:17.3682 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+2024-10-11 18:14:22.5089 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US -------------------Test zakończono-------------------
