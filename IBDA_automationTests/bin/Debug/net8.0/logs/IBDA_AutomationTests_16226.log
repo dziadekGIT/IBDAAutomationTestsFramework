@@ -1,0 +1,62 @@
+2024-10-14 12:56:35.1139 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Rozpoczęcie konfiguracji testu
+
+2024-10-14 12:56:38.1188 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Utworzono usera : test_operatorIBDA
+
+2024-10-14 12:56:38.5882 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Logowanie użytkownika: test_operatorIBDA
+
+2024-10-14 12:56:38.5936 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US -------------------Test rozpoczęto-------------------
+
+2024-10-14 12:56:38.5936 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Data rozpoczęcia testu: 2024-10-14 12:56
+
+2024-10-14 12:56:41.6149 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wyświetlona strona: nAxiom
+
+2024-10-14 12:56:44.6661 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Rozwinięto menu Rejestracja
+
+2024-10-14 12:56:47.7707 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-10-14 12:56:50.8159 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wysłano png do pola 'Zdjęcia IBDA
+
+2024-10-14 12:57:00.8700 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Zapisano wniosek przyciskiem 'Zapisz'
+
+2024-10-14 12:57:10.9277 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wniosek zatwierdzono i rozpoczęto inicjalizacjię IBDA
+
+2024-10-14 12:57:16.0534 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wprowadzono nazwę wniosku w pole 'Nazwa IBDA' : Test automatyczny : 2024-10-14 12:56 
+
+2024-10-14 12:57:19.1722 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wprowadzono wydział w pole 'Wydział określony przy rejestracji' : Wydział Testowy 
+
+2024-10-14 12:57:27.3100 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wprowadzono wydział w pole 'Laboratorium określone przy rejestracji' : Test_Laboratorium 
+
+2024-10-14 12:57:27.3100 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US W polu Lokalizacja (Adres) automatycznie uzupełnił się adres na : Bankowa 12
+
+2024-10-14 12:57:37.4339 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US W polu 'Źródło finansowania' wybrano : 'inne'
+
+2024-10-14 12:57:45.6550 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US W pole 'Opis' wpisano : 'Test automatyczny : 2024-10-14 12:56'
+
+2024-10-14 12:57:53.7749 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Kliknięto w zakładkę : Parametry sprzętu
+
+2024-10-14 12:57:58.8575 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wybrano z przycisków typu radio button - Rodzaj sprzętu : Stacjonarny
+
+2024-10-14 12:58:03.9203 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wybrano z przycisków typu radio button - Czy sprzęt może być wypożyczony : Nie
+
+2024-10-14 12:58:08.9698 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Kliknięto w zakładkę : Parametry pracy urządzenia
+
+2024-10-14 12:58:14.0127 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wybrano z przycisków typu radio button - Praca w atmosferze gazów : Nie
+
+2024-10-14 12:58:19.0613 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wybrano z przycisków typu radio button - Praca w spsób ciągły : Nie
+
+2024-10-14 12:58:24.1226 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Kliknięto w zakładkę : Możliwości aparatury
+
+2024-10-14 12:58:29.2116 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US W polu 'Możliwości badawcze' wybrano : 'Test'
+
+2024-10-14 12:58:37.3464 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US W polu 'Możliwości realizacji usług komercyjnych' wybrano : 'brak'
+
+2024-10-14 12:58:45.4784 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US W polu 'Słowa kluczowe' wybrano : 'Test'
+
+2024-10-14 12:58:53.6532 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US W polu 'Rodzaj nabycia' wybrano : 'Darowizna'
+
+2024-10-14 12:59:01.8492 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US W polu 'Dyscyplina' wybrano : 'Informatyka'
+
+2024-10-14 12:59:09.9830 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Kliknięto w zakładkę : Akredytacje
+
+2024-10-14 12:59:16.0286 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US -------------------Test zakończono-------------------
+

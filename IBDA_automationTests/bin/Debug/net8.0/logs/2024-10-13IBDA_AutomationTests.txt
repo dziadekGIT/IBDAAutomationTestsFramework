@@ -1,0 +1,52 @@
+2024-10-13 12:16:40.8535|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozpoczęcie konfiguracji testu
+2024-10-13 12:16:43.8612|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Utworzono usera : test_operatorIBDA
+2024-10-13 12:16:51.1626|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|-------------------Test zakończono-------------------
+2024-10-13 12:18:15.4820|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozpoczęcie konfiguracji testu
+2024-10-13 12:18:18.4899|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Utworzono usera : test_operatorIBDA
+2024-10-13 12:18:20.1819|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Logowanie użytkownika: test_operatorIBDA
+2024-10-13 12:18:23.1998|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wyświetlona strona: nAxiom
+2024-10-13 12:18:26.2265|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozwinięto menu Rejestracja
+2024-10-13 12:18:29.2574|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+2024-10-13 12:18:34.3761|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|-------------------Test zakończono-------------------
+2024-10-13 12:20:13.6622|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozpoczęcie konfiguracji testu
+2024-10-13 12:20:16.6696|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Utworzono usera : test_operatorIBDA
+2024-10-13 12:20:17.1328|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Logowanie użytkownika: test_operatorIBDA
+2024-10-13 12:20:20.1496|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wyświetlona strona: nAxiom
+2024-10-13 12:20:23.1863|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozwinięto menu Rejestracja
+2024-10-13 12:20:26.2313|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+2024-10-13 12:20:31.3519|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|-------------------Test zakończono-------------------
+2024-10-13 12:24:26.9002|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozpoczęcie konfiguracji testu
+2024-10-13 12:24:29.9075|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Utworzono usera : test_operatorIBDA
+2024-10-13 12:24:30.3175|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Logowanie użytkownika: test_operatorIBDA
+2024-10-13 12:24:33.3424|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wyświetlona strona: nAxiom
+2024-10-13 12:24:36.3850|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozwinięto menu Rejestracja
+2024-10-13 12:24:39.4483|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+2024-10-13 12:24:39.5751|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|-------------------Test zakończono-------------------
+2024-10-13 12:25:45.3217|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozpoczęcie konfiguracji testu
+2024-10-13 12:25:48.3295|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Utworzono usera : test_operatorIBDA
+2024-10-13 12:25:48.7748|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Logowanie użytkownika: test_operatorIBDA
+2024-10-13 12:25:51.8042|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wyświetlona strona: nAxiom
+2024-10-13 12:25:54.8465|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozwinięto menu Rejestracja
+2024-10-13 12:25:57.9014|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+2024-10-13 12:25:57.9273|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|-------------------Test zakończono-------------------
+2024-10-13 12:28:45.6646|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozpoczęcie konfiguracji testu
+2024-10-13 12:28:48.6714|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Utworzono usera : test_operatorIBDA
+2024-10-13 12:28:49.0939|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Logowanie użytkownika: test_operatorIBDA
+2024-10-13 12:28:52.1271|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wyświetlona strona: nAxiom
+2024-10-13 12:28:55.1703|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozwinięto menu Rejestracja
+2024-10-13 12:28:58.2216|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+2024-10-13 12:28:58.2626|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|-------------------Test zakończono-------------------
+2024-10-13 12:31:43.9117|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozpoczęcie konfiguracji testu
+2024-10-13 12:31:46.9195|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Utworzono usera : test_operatorIBDA
+2024-10-13 12:31:47.3721|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Logowanie użytkownika: test_operatorIBDA
+2024-10-13 12:31:50.3912|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wyświetlona strona: nAxiom
+2024-10-13 12:31:53.4284|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozwinięto menu Rejestracja
+2024-10-13 12:31:56.4824|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+2024-10-13 12:31:56.5060|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|-------------------Test zakończono-------------------
+2024-10-13 12:36:01.2633|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozpoczęcie konfiguracji testu
+2024-10-13 12:36:04.2709|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Utworzono usera : test_operatorIBDA
+2024-10-13 12:36:04.7359|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Logowanie użytkownika: test_operatorIBDA
+2024-10-13 12:36:07.7643|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wyświetlona strona: nAxiom
+2024-10-13 12:36:10.8057|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Rozwinięto menu Rejestracja
+2024-10-13 12:36:13.8612|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+2024-10-13 12:36:13.8875|INFO|IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US|-------------------Test zakończono-------------------

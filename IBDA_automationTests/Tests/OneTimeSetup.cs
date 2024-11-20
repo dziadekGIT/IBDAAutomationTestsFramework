@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestPlatform.Common.Utilities;
 using Newtonsoft.Json;
 using NUnit.Framework;
 using System.IO;
+using OpenQA.Selenium;
 
 namespace IBDA_automationTests.Tests;
 
@@ -42,6 +43,11 @@ public class OneTimeSetup
         koordynatorWydz = users.test_koordynatorWydz;
         tesKierownikDP = users.test_KierownikDP;
         
+    }
+    [OneTimeTearDown]
+    public void KillProgram()
+    {
+        System.Diagnostics.Process.Start("pkill", "dotnet");
     }
     
 }

@@ -1,0 +1,36 @@
+2024-10-16 10:59:15.0129 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 ------------Rozpoczęto konfigurację testu------------
+
+2024-10-16 10:59:15.0188 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-10-16 10:59:18.0204 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Utworzono usera : test_operatorIBDA
+
+2024-10-16 10:59:18.4666 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Logowanie użytkownika: test_operatorIBDA
+
+2024-10-16 10:59:18.4738 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 -------------------Test rozpoczęto-------------------
+
+2024-10-16 10:59:18.4738 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Test regresyjny IBDADeviceName0000: Dodanie pola z nazwą zestawu
+
+2024-10-16 10:59:18.4738 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Data rozpoczęcia testu: 2024-10-16 10:59
+
+2024-10-16 10:59:21.4952 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Wyświetlona strona: nAxiom
+
+2024-10-16 10:59:24.5396 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Rozwinięto menu Rejestracja
+
+2024-10-16 10:59:27.5740 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-10-16 10:59:27.6090 ERROR IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Asercja nie przeszła: expected = Add an IBDA set/device name, actual = null
+
+2024-10-16 10:59:30.7088 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 -------------------Test rozpoczęto-------------------
+
+2024-10-16 10:59:30.7103 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Test regresyjny IBDADeviceName0001: Dodanie przycisku usuń wniosek
+
+2024-10-16 10:59:30.7103 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Data rozpoczęcia testu: 2024-10-16 10:59
+
+2024-10-16 10:59:33.7193 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Wyświetlona strona: nAxiom
+
+2024-10-16 10:59:36.7532 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Rozwinięto menu Rejestracja
+
+2024-10-16 10:59:39.7921 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-10-16 10:59:39.7946 ERROR IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Asercja nie przeszła: expected = Delete application button, actual = null
+

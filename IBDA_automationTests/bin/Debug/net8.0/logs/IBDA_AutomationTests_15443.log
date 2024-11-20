@@ -1,0 +1,44 @@
+2024-10-14 12:07:18.0667 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Rozpoczęcie konfiguracji testu
+
+2024-10-14 12:07:21.0734 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Utworzono usera : test_operatorIBDA
+
+2024-10-14 12:07:21.5786 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Logowanie użytkownika: test_operatorIBDA
+
+2024-10-14 12:07:21.5827 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US -------------------Test rozpoczęto-------------------
+
+2024-10-14 12:07:21.5827 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Data rozpoczęcia testu: 2024-10-14 12:07
+
+2024-10-14 12:07:24.6117 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wyświetlona strona: nAxiom
+
+2024-10-14 12:07:27.6671 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Rozwinięto menu Rejestracja
+
+2024-10-14 12:07:30.7244 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-10-14 12:07:33.7713 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wysłano png do pola 'Zdjęcia IBDA
+
+2024-10-14 12:07:43.8876 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Zapisano wniosek przyciskiem 'Zapisz'
+
+2024-10-14 12:07:53.9343 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wniosek zatwierdzono i rozpoczęto inicjalizacjię IBDA
+
+2024-10-14 12:07:59.0459 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wprowadzono nazwę wniosku w pole 'Nazwa IBDA' : Test automatyczny : 2024-10-14 12:07 
+
+2024-10-14 12:08:02.1460 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wprowadzono wydział w pole 'Wydział określony przy rejestracji' : Wydział Testowy 
+
+2024-10-14 12:08:10.2989 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wprowadzono wydział w pole 'Laboratorium określonr przy rejestracji' : Test_Laboratorium 
+
+2024-10-14 12:08:10.2998 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US W polu Lokalizacja (Adres) automatycznie uzupełnił się adres na : Bankowa 12
+
+2024-10-14 12:08:20.4412 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US W polu 'Źródło finansowania' wybrano : 'inne'
+
+2024-10-14 12:08:28.6550 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US W pole 'Opis' wpisano : 'Test automatyczny : 2024-10-14 12:07'
+
+2024-10-14 12:08:36.7809 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Kliknięto w zakładkę : Parametry sprzętu
+
+2024-10-14 12:08:41.8291 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wybrano z przycisków typu radio button - Rodzaj sprzętu : Stacjonarny
+
+2024-10-14 12:08:46.8977 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Wybrano z przycisków typu radio button - Czy sprzęt może być wypożyczony : Nie
+
+2024-10-14 12:08:51.9450 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US Kliknięto w zakładkę : Parametry pracy urządzenia
+
+2024-10-14 12:08:56.9544 INFO IBDA_automationTests.TestsIBDA.TestFixtures.IBDA_US -------------------Test zakończono-------------------
+

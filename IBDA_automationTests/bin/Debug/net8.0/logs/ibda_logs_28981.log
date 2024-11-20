@@ -1,0 +1,22 @@
+2024-11-20 08:23:20.8702 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 ------------Rozpoczęto konfigurację testu------------
+
+2024-11-20 08:23:20.8754 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-11-20 08:23:23.8768 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Utworzono usera : test_operatorIBDA
+
+2024-11-20 08:23:25.8816 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Logowanie użytkownika: test_operatorIBDA
+
+2024-11-20 08:23:25.8855 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 -------------------Test rozpoczęto-------------------
+
+2024-11-20 08:23:25.8855 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Data rozpoczęcia testu: 2024-11-20 08:23
+
+2024-11-20 08:23:28.9025 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wyświetlona strona: nAxiom
+
+2024-11-20 08:23:33.9215 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Rozwinięcie menu Rejestracja poprzez kliknięcie w tekst 'Rejestracja' nie powiodło się
+
+2024-11-20 08:23:33.9219 ERROR IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 System.TimeoutException: Cannot find element by selector 'body > app-root > app-main > div.d-flex.vh-100 > nax-aside > div > aside > div > nax-aside-menu > nax-aside-menu-desktop > div.flex-fill.sidebar-nav.position-relative.ps > ul > li:nth-child(3) > nax-aside-menu-item-desktop > div > a > span' after 1 seconds.
+URL:  https://ibda-test.us.edu.pl/front/dashboard?code=AEF693550C9D04A4AA81996FD082055C73668C138B840319C2E05AF14CF0F015&scope=openid%20email%20profile%20internal-api&state=aDFrYUY5ZTBWcTN3SEZfWVpVaTBxRXVwOUlUQ1AuSG93RzVEWUpEUGVBb29t&session_state=Dor88sqj8aQ5hSK-VJrpGCRGgRqC1VODVZlojbCb8A8.5466C5B0CC6DDE81327E167B12FA4298
+Page Title:  nAxiom
+
+2024-11-20 08:23:33.9300 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 -------------------Test zakończono-------------------
+

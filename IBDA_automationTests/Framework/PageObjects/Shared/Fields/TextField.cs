@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using OpenQA.Selenium;
 
 namespace IBDA_automationTests.Framework.PageObjects.Shared.Fields
 {
@@ -11,6 +7,10 @@ namespace IBDA_automationTests.Framework.PageObjects.Shared.Fields
         public void SetValue(string text)
         {
             RelatedElement.SendKeys(text);
+        }
+        public void PressEnter()
+        {
+            RelatedElement.SendKeys(Keys.Enter); 
         }
     }
 }

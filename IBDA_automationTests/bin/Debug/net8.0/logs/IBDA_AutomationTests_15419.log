@@ -1,0 +1,72 @@
+2024-10-24 09:38:48.7266 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 ------------Rozpoczęto konfigurację testu------------
+
+2024-10-24 09:38:48.7329 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-10-24 09:38:51.7345 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Utworzono usera : test_operatorIBDA
+
+2024-10-24 09:38:52.1315 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Logowanie użytkownika: test_operatorIBDA
+
+2024-10-24 09:38:52.1353 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 -------------------Test rozpoczęto-------------------
+
+2024-10-24 09:38:52.1359 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Data rozpoczęcia testu: 2024-10-24 09:38
+
+2024-10-24 09:38:55.1555 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wyświetlona strona: nAxiom
+
+2024-10-24 09:38:58.1921 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Rozwinięto menu Rejestracja
+
+2024-10-24 09:39:01.2379 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-10-24 09:39:04.2670 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wysłano png do pola 'Zdjęcia IBDA
+
+2024-10-24 09:39:14.3090 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Zapisano wniosek przyciskiem 'Zapisz'
+
+2024-10-24 09:39:24.3400 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wniosek zatwierdzono i rozpoczęto inicjalizacjię IBDA
+
+2024-10-24 09:39:29.4493 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wprowadzono nazwę wniosku w pole 'Nazwa IBDA' : Test automatyczny : 2024-10-24 09:38 
+
+2024-10-24 09:39:32.5325 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wprowadzono wydział w pole 'Wydział określony przy rejestracji' : Wydział Testowy 
+
+2024-10-24 09:39:40.6435 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wprowadzono wydział w pole 'Laboratorium określone przy rejestracji' : Test_Laboratorium 
+
+2024-10-24 09:39:40.6444 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 W polu Lokalizacja (Adres) automatycznie uzupełnił się adres na : Bankowa 12
+
+2024-10-24 09:39:50.7346 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 W polu 'Źródło finansowania' wybrano : 'inne'
+
+2024-10-24 09:39:58.8604 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 W pole 'Opis' wpisano : 'Test automatyczny : 2024-10-24 09:38'
+
+2024-10-24 09:40:06.9265 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Kliknięto w zakładkę : Parametry sprzętu
+
+2024-10-24 09:40:11.9721 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wybrano z przycisków typu radio button - Rodzaj sprzętu : Stacjonarny
+
+2024-10-24 09:40:17.0090 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wybrano z przycisków typu radio button - Czy sprzęt może być wypożyczony : Nie
+
+2024-10-24 09:40:22.0413 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Kliknięto w zakładkę : Parametry pracy urządzenia
+
+2024-10-24 09:40:27.0801 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wybrano z przycisków typu radio button - Praca w atmosferze gazów : Nie
+
+2024-10-24 09:40:32.1163 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wybrano z przycisków typu radio button - Praca w spsób ciągły : Nie
+
+2024-10-24 09:40:37.1510 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Kliknięto w zakładkę : Możliwości aparatury
+
+2024-10-24 09:40:42.2108 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 W polu 'Możliwości badawcze' wybrano : 'Test'
+
+2024-10-24 09:40:50.3024 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 W polu 'Możliwości realizacji usług komercyjnych' wybrano : 'brak'
+
+2024-10-24 09:40:58.3916 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 W polu 'Słowa kluczowe' wybrano : 'Test'
+
+2024-10-24 09:41:06.4866 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 W polu 'Rodzaj nabycia' wybrano : 'Darowizna'
+
+2024-10-24 09:41:14.5969 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 W polu 'Dyscyplina' wybrano : 'Informatyka'
+
+2024-10-24 09:41:22.6588 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Kliknięto w zakładkę : Akredytacje
+
+2024-10-24 09:41:27.6968 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wybrano z przycisków typu radio button - Urządzenie posiada akredytacje lub certyfikacje? : Nie
+
+2024-10-24 09:41:35.7398 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Kliknięto 'Zatwierdź'
+
+2024-10-24 09:41:38.7718 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Kliknięto 'Zatwierdź' potwiedzająć wprowadzenie danych
+
+2024-10-24 09:41:38.8116 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Kliknięto 'Zatwierdź' zamykając możliwość edycji i przekazując dokument dalej
+
+2024-10-24 09:41:42.8167 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 -------------------Test zakończono-------------------
+
