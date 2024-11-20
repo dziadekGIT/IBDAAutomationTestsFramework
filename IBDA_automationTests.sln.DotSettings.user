@@ -1,4 +1,9 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=85ddc8f7_002D70e3_002D417e_002D9eab_002D47c6936f1e5d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;ProjectFile&gt;552D5495-E0D4-41BF-80D2-C2EBF8F42B4F/d:Tests/d:TestFixtures/f:IBDA_US.cs&lt;/ProjectFile&gt;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+  &lt;Or&gt;
+    &lt;ProjectFile&gt;552D5495-E0D4-41BF-80D2-C2EBF8F42B4F/d:Tests/d:TestFixtures/f:DeviceRegistration_OperatorIBDA_000.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;552D5495-E0D4-41BF-80D2-C2EBF8F42B4F/d:Tests/d:TestFixtures/f:NewApplication_00.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;552D5495-E0D4-41BF-80D2-C2EBF8F42B4F/d:Tests/d:TestFixtures/f:DeviceReservation_00.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/HangingTestRunnerResponse/@EntryValue">KillProcess</s:String></wpf:ResourceDictionary>
