@@ -107,3 +107,4 @@
 /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/NLog.dll
 /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/SeleniumExtras.PageObjects.dll
 /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/NLog.config
+/Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/obj/Debug/net8.0/IBDA_automationTests.sourcelink.json

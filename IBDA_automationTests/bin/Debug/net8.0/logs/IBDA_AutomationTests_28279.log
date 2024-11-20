@@ -1,0 +1,20 @@
+2024-10-16 10:02:24.9609 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 ------------Rozpoczęto konfigurację testu------------
+
+2024-10-16 10:02:24.9657 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-10-16 10:02:27.9668 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Utworzono usera : test_operatorIBDA
+
+2024-10-16 10:02:28.2768 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Logowanie użytkownika: test_operatorIBDA
+
+2024-10-16 10:02:28.2804 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 -------------------Test rozpoczęto-------------------
+
+2024-10-16 10:02:28.2804 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Test regresyjny IBDADeviceName0000: Dodanie pola z nazwą zestawu
+
+2024-10-16 10:02:28.2810 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Data rozpoczęcia testu: 2024-10-16 10:02
+
+2024-10-16 10:02:31.3020 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Wyświetlona strona: nAxiom
+
+2024-10-16 10:02:34.3600 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Rozwinięto menu Rejestracja
+
+2024-10-16 10:02:37.3978 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+

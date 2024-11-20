@@ -1,0 +1,8 @@
+2024-10-16 09:40:51.8294 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 ------------Rozpoczęto konfigurację testu------------
+
+2024-10-16 09:40:51.8342 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-10-16 09:40:54.8358 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Utworzono usera : test_operatorIBDA
+
+2024-10-16 09:40:55.2281 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Logowanie użytkownika: test_operatorIBDA
+
