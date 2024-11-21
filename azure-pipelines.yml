@@ -18,9 +18,16 @@ variables:
   value: '$(Build.BuildId)'
 - group: TestCredentials
 
+
+
 steps:
 - task: Checkout@1
   displayName: 'Checkout repository'
+
+- script: |
+    echo "TEST_OPERATORIBDA_PASSWORD=$(TEST_OPERATORIBDA_PASSWORD)"
+    echo "TEST_KIEROWNIKLAB_PASSWORD=$(TEST_KIEROWNIKLAB_PASSWORD)"
+  displayName: 'Debugging environment variables'
 
 - script: |
     cat > IBDA_automationTests/config.json <<EOF
