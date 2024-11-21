@@ -13,7 +13,7 @@ pool:
 
 variables:
   dockerImageName: 'ibda-tests'
-  dockerImageTag: '$(Build.BuildId)'
+  dockerImageTag: '$(Build.BuildNumber)'
 
 steps:
 - task: Checkout@1
@@ -72,10 +72,7 @@ steps:
 - script: |
     docker save $(dockerImageName):$(dockerImageTag) -o ibda-tests.tar
   displayName: 'Save Docker Image as TAR'
-#dbug
-- script: |
-    echo "TEST_OPERATORIBDA_PASSWORD=$(TEST_OPERATORIBDA_PASSWORD)"
-  displayName: 'Debug credentials'
+
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: 'ibda-tests.tar'
