@@ -9,7 +9,7 @@ pr:
 
 #macos-latest
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'Azure Pipelines'
 
 variables:
 - name:  dockerImageName
