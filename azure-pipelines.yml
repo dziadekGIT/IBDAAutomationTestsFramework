@@ -20,44 +20,44 @@ steps:
   displayName: 'Checkout repository'
 
 
-- script: |
-    cat > IBDA_automationTests/config.json <<EOF
-    {
-      "test_operatorIBDA": {
-        "username": "test_operatorIBDA",
-        "password": "US2023!"
-      },
-      "test_kierownikLAB": {
-        "username": "test_kierownikLAB",
-        "password": "US2023!"
-      },
-      "test_OpiekunIBDA": {
-        "username": "test_OpiekunIBDA",
-        "password": "US2023!"
-      },
-      "test_PracownikBWG": {
-        "username": "test_PracownikBWG",
-        "password": "US2023!"
-      },
-      "test_PracownikSAP": {
-        "username": "test_PracownikSAP",
-        "password": "US2023!"
-      },
-      "test_PracownikCBIBDA": {
-        "username": "test_PracownikCBIBDA",
-        "password": "US2023!"
-      },
-      "test_koordynatorWydz": {
-        "username": "test_koordynatorWydz",
-        "password": "US2023!"
-      },
-      "test_KierownikDP": {
-        "username": "test_KierownikDP",
-        "password": "US2023!"
-      }
-    }
-    EOF
-  displayName: 'Generate config.json with credentials'
+#- script: |
+#    cat > IBDA_automationTests/config.json <<EOF
+#    {
+#      "test_operatorIBDA": {
+#        "username": "test_operatorIBDA",
+#        "password": "US2023!"
+#      },
+#      "test_kierownikLAB": {
+#        "username": "test_kierownikLAB",
+#        "password": "US2023!"
+#      },
+#      "test_OpiekunIBDA": {
+#        "username": "test_OpiekunIBDA",
+#        "password": "US2023!"
+#      },
+#      "test_PracownikBWG": {
+#        "username": "test_PracownikBWG",
+#        "password": "US2023!"
+#      },
+#      "test_PracownikSAP": {
+#        "username": "test_PracownikSAP",
+#        "password": "US2023!"
+#      },
+#      "test_PracownikCBIBDA": {
+#        "username": "test_PracownikCBIBDA",
+#        "password": "US2023!"
+#      },
+#      "test_koordynatorWydz": {
+#        "username": "test_koordynatorWydz",
+#        "password": "US2023!"
+#      },
+#      "test_KierownikDP": {
+#        "username": "test_KierownikDP",
+#        "password": "US2023!"
+#      }
+#    }
+#    EOF
+#  displayName: 'Generate config.json with credentials'
 
 
 - task: Docker@2
