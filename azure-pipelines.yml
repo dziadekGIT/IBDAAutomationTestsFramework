@@ -13,7 +13,7 @@ pool:
 
 variables:
   dockerImageName: 'ibda-tests'
-  dockerImageTag: '$(Build.BuildNumber)'
+
 
 steps:
 - task: Checkout@1
@@ -65,9 +65,9 @@ steps:
   inputs:
     command: 'build'
     Dockerfile: '**/Dockerfile'
-    tags: |
-      $(dockerImageName):$(dockerImageTag)
-      $(dockerImageName):latest
+#    tags: |
+#      $(dockerImageName):$(dockerImageTag)
+#      $(dockerImageName):latest
 
 - script: |
     docker save $(dockerImageName):$(dockerImageTag) -o ibda-tests.tar
