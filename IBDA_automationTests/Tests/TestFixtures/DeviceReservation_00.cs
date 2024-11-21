@@ -54,8 +54,14 @@ public class DeviceReservation_00 : OneTimeSetup
         Assert.Pass();
         
     }
-    
-    
+
+    [Test]
+    public void Test2()
+    {
+        
+        Console.WriteLine("test2");
+        
+    }
     [OneTimeTearDown]
     public void tearDown()
     {

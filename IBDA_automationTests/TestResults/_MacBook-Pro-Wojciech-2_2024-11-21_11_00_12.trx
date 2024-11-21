@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="037e37f2-67a4-4896-89f8-913251c2c854" name="@MacBook-Pro-Wojciech-2 2024-11-21 11:00:12" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-11-21T11:00:12.8114770+01:00" queuing="2024-11-21T11:00:12.8114770+01:00" start="2024-11-21T10:59:28.6057500+01:00" finish="2024-11-21T11:00:46.5585840+01:00" />
+  <TestSettings name="default" id="aaf439db-2ca6-4db6-8eaa-101cc006eeb8">
+    <Deployment runDeploymentRoot="_MacBook-Pro-Wojciech-2_2024-11-21_11_00_12" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="ed5dac25-3768-4e99-817b-53fee5e75cfa" testId="3314cb80-973c-cd52-ed9a-d2c7afb47cb2" testName="Test2" computerName="MacBook-Pro-Wojciech-2" duration="00:00:00.0001260" startTime="2024-11-21T11:00:17.4086640+01:00" endTime="2024-11-21T11:00:17.4087900+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed5dac25-3768-4e99-817b-53fee5e75cfa">
+      <Output>
+        <StdOut>test2</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="60ca3ea7-71d4-4d48-a4f6-78123dbb3801" testId="a7a49bcc-26e1-c0b5-27eb-59bbb06ce3bf" testName="IBDADeviceName0000" computerName="MacBook-Pro-Wojciech-2" duration="00:00:12.2095970" startTime="2024-11-21T11:00:22.0398490+01:00" endTime="2024-11-21T11:00:34.2494880+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60ca3ea7-71d4-4d48-a4f6-78123dbb3801">
+      <Output>
+        <StdOut>2024-11-21 11:00:22.0412 Info -------------------Test rozpoczęto-------------------
+
+2024-11-21 11:00:22.0412 Info Test regresyjny IBDADeviceName0000: Dodanie pola z nazwą zestawu
+
+2024-11-21 11:00:22.0412 Info Data rozpoczęcia testu: 2024-11-21 11:00
+
+2024-11-21 11:00:25.0476 Info Wyświetlona strona: nAxiom
+
+2024-11-21 11:00:28.0862 Info Rozwinięto menu Rejestracja
+
+2024-11-21 11:00:31.1342 Info Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-11-21 11:00:31.1512 Error Asercja nie przeszła: expected = Add an IBDA set/device name, actual = null</StdOut>
+        <ErrorInfo>
+          <Message>  Expected: same as "Add an IBDA set/device name"
+  But was:  &lt;string.Empty&gt;
+</Message>
+          <StackTrace>   at IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00.IBDADeviceName0000() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/NewApplication_00.cs:line 102
+
+1)    at IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00.IBDADeviceName0000() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/NewApplication_00.cs:line 97
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cd3d30f4-3e3d-4606-a85f-a37aa28cc867" testId="3d01c682-f229-3cad-0f30-745c0dda79d3" testName="Test" computerName="MacBook-Pro-Wojciech-2" duration="00:00:00.0071490" startTime="2024-11-21T11:00:17.4014730+01:00" endTime="2024-11-21T11:00:17.4086260+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd3d30f4-3e3d-4606-a85f-a37aa28cc867" />
+    <UnitTestResult executionId="53b8ce7a-b619-42fc-8c73-f3fae1ca3d30" testId="ebc3f1f1-6f0b-1702-f286-9fa5b5741a71" testName="IBDADeviceName0001" computerName="MacBook-Pro-Wojciech-2" duration="00:00:12.1748680" startTime="2024-11-21T11:00:34.2495850+01:00" endTime="2024-11-21T11:00:46.4244680+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53b8ce7a-b619-42fc-8c73-f3fae1ca3d30">
+      <Output>
+        <StdOut>2024-11-21 11:00:34.2501 Info -------------------Test rozpoczęto-------------------
+
+2024-11-21 11:00:34.2504 Info Test regresyjny IBDADeviceName0001: Dodanie przycisku usuń wniosek
+
+2024-11-21 11:00:34.2504 Info Data rozpoczęcia testu: 2024-11-21 11:00
+
+2024-11-21 11:00:37.2571 Info Wyświetlona strona: nAxiom
+
+2024-11-21 11:00:40.2942 Info Rozwinięto menu Rejestracja
+
+2024-11-21 11:00:43.3321 Info Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-11-21 11:00:43.3333 Error Asercja nie przeszła: expected = Delete application button, actual = null</StdOut>
+        <ErrorInfo>
+          <Message>  Expected: same as "Delete application button"
+  But was:  &lt;string.Empty&gt;
+</Message>
+          <StackTrace>   at IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00.IBDADeviceName0001() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/NewApplication_00.cs:line 152
+
+1)    at IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00.IBDADeviceName0001() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/NewApplication_00.cs:line 147
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="55c47fbf-d5c9-4319-84f9-e3749e430a2a" testId="b4f090c0-25ed-74ea-9617-1841fa584417" testName="DeviceRegistrationOperator" computerName="MacBook-Pro-Wojciech-2" duration="00:00:37.3391180" startTime="2024-11-21T10:59:35.2689100+01:00" endTime="2024-11-21T11:00:12.6080460+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55c47fbf-d5c9-4319-84f9-e3749e430a2a">
+      <Output>
+        <StdOut>2024-11-21 10:59:35.2759 Info -------------------Test rozpoczęto-------------------
+
+2024-11-21 10:59:35.2767 Info Data rozpoczęcia testu: 2024-11-21 10:59
+
+2024-11-21 10:59:38.2962 Info Wyświetlona strona: nAxiom
+
+2024-11-21 10:59:41.3318 Info Rozwinięto menu Rejestracja
+
+2024-11-21 10:59:44.3689 Info Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-11-21 10:59:49.4424 Info Wprowadzono nazwę wniosku w pole 'Nazwa IBDA' : Test automatyczny : 2024-11-21 10:59 
+
+2024-11-21 10:59:52.4832 Info Wysłano png do pola 'Zdjęcia IBDA
+
+2024-11-21 11:00:02.5285 Info Zapisano wniosek przyciskiem 'Zapisz'
+
+2024-11-21 11:00:12.5642 Info Wniosek zatwierdzono i rozpoczęto inicjalizacjię IBDA</StdOut>
+        <ErrorInfo>
+          <Message>OpenQA.Selenium.ElementNotInteractableException : element not interactable
+  (Session info: chrome=131.0.6778.71)</Message>
+          <StackTrace>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.SendKeys(String text)
+   at IBDA_automationTests.Framework.PageObjects.Shared.Fields.TextField.SetValue(String text) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/Shared/Fields/TextField.cs:line 9
+   at IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000.DeviceRegistrationOperator() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/DeviceRegistration_OperatorIBDA_000.cs:line 120
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DeviceRegistrationOperator" storage="/users/epizode/desktop/us_projects/at_framework/ibda_automationtests/ibda_automationtests/bin/debug/net8.0/ibda_automationtests.dll" id="b4f090c0-25ed-74ea-9617-1841fa584417">
+      <Execution id="55c47fbf-d5c9-4319-84f9-e3749e430a2a" />
+      <TestMethod codeBase="/Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/IBDA_automationTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000" name="DeviceRegistrationOperator" />
+    </UnitTest>
+    <UnitTest name="Test" storage="/users/epizode/desktop/us_projects/at_framework/ibda_automationtests/ibda_automationtests/bin/debug/net8.0/ibda_automationtests.dll" id="3d01c682-f229-3cad-0f30-745c0dda79d3">
+      <Execution id="cd3d30f4-3e3d-4606-a85f-a37aa28cc867" />
+      <TestMethod codeBase="/Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/IBDA_automationTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00" name="Test" />
+    </UnitTest>
+    <UnitTest name="Test2" storage="/users/epizode/desktop/us_projects/at_framework/ibda_automationtests/ibda_automationtests/bin/debug/net8.0/ibda_automationtests.dll" id="3314cb80-973c-cd52-ed9a-d2c7afb47cb2">
+      <Execution id="ed5dac25-3768-4e99-817b-53fee5e75cfa" />
+      <TestMethod codeBase="/Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/IBDA_automationTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00" name="Test2" />
+    </UnitTest>
+    <UnitTest name="IBDADeviceName0000" storage="/users/epizode/desktop/us_projects/at_framework/ibda_automationtests/ibda_automationtests/bin/debug/net8.0/ibda_automationtests.dll" id="a7a49bcc-26e1-c0b5-27eb-59bbb06ce3bf">
+      <Execution id="60ca3ea7-71d4-4d48-a4f6-78123dbb3801" />
+      <TestMethod codeBase="/Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/IBDA_automationTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00" name="IBDADeviceName0000" />
+    </UnitTest>
+    <UnitTest name="IBDADeviceName0001" storage="/users/epizode/desktop/us_projects/at_framework/ibda_automationtests/ibda_automationtests/bin/debug/net8.0/ibda_automationtests.dll" id="ebc3f1f1-6f0b-1702-f286-9fa5b5741a71">
+      <Execution id="53b8ce7a-b619-42fc-8c73-f3fae1ca3d30" />
+      <TestMethod codeBase="/Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/IBDA_automationTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00" name="IBDADeviceName0001" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="3314cb80-973c-cd52-ed9a-d2c7afb47cb2" executionId="ed5dac25-3768-4e99-817b-53fee5e75cfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7a49bcc-26e1-c0b5-27eb-59bbb06ce3bf" executionId="60ca3ea7-71d4-4d48-a4f6-78123dbb3801" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d01c682-f229-3cad-0f30-745c0dda79d3" executionId="cd3d30f4-3e3d-4606-a85f-a37aa28cc867" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebc3f1f1-6f0b-1702-f286-9fa5b5741a71" executionId="53b8ce7a-b619-42fc-8c73-f3fae1ca3d30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4f090c0-25ed-74ea-9617-1841fa584417" executionId="55c47fbf-d5c9-4319-84f9-e3749e430a2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Wyniki, których nie ma na liście" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Wszystkie załadowane wyniki" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="2" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.5.0.0: Test execution started
+Running all tests in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/IBDA_automationTests.dll
+   NUnit3TestExecutor discovered 5 of 5 NUnit test cases using Current Discovery mode, Non-Explicit run
+Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 59790
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 59790.
+Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 59830
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 59830.
+Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 59861
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 59861.
+NUnit Adapter 4.5.0.0: Test execution complete
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="MacBook-Pro-Wojciech-2" outcome="Warning" timestamp="2024-11-21T11:00:12.6206220+01:00">
+        <Text>2024-11-21 10:59:35.2759 Info -------------------Test rozpoczęto-------------------
+
+2024-11-21 10:59:35.2767 Info Data rozpoczęcia testu: 2024-11-21 10:59
+
+2024-11-21 10:59:38.2962 Info Wyświetlona strona: nAxiom
+
+2024-11-21 10:59:41.3318 Info Rozwinięto menu Rejestracja
+
+2024-11-21 10:59:44.3689 Info Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-11-21 10:59:49.4424 Info Wprowadzono nazwę wniosku w pole 'Nazwa IBDA' : Test automatyczny : 2024-11-21 10:59 
+
+2024-11-21 10:59:52.4832 Info Wysłano png do pola 'Zdjęcia IBDA
+
+2024-11-21 11:00:02.5285 Info Zapisano wniosek przyciskiem 'Zapisz'
+
+2024-11-21 11:00:12.5642 Info Wniosek zatwierdzono i rozpoczęto inicjalizacjię IBDA
+
+</Text>
+      </RunInfo>
+      <RunInfo computerName="MacBook-Pro-Wojciech-2" outcome="Warning" timestamp="2024-11-21T11:00:17.4094060+01:00">
+        <Text>test2
+</Text>
+      </RunInfo>
+      <RunInfo computerName="MacBook-Pro-Wojciech-2" outcome="Warning" timestamp="2024-11-21T11:00:34.2544230+01:00">
+        <Text>2024-11-21 11:00:22.0412 Info -------------------Test rozpoczęto-------------------
+
+2024-11-21 11:00:22.0412 Info Test regresyjny IBDADeviceName0000: Dodanie pola z nazwą zestawu
+
+2024-11-21 11:00:22.0412 Info Data rozpoczęcia testu: 2024-11-21 11:00
+
+2024-11-21 11:00:25.0476 Info Wyświetlona strona: nAxiom
+
+2024-11-21 11:00:28.0862 Info Rozwinięto menu Rejestracja
+
+2024-11-21 11:00:31.1342 Info Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-11-21 11:00:31.1512 Error Asercja nie przeszła: expected = Add an IBDA set/device name, actual = null
+
+</Text>
+      </RunInfo>
+      <RunInfo computerName="MacBook-Pro-Wojciech-2" outcome="Warning" timestamp="2024-11-21T11:00:46.4367660+01:00">
+        <Text>2024-11-21 11:00:34.2501 Info -------------------Test rozpoczęto-------------------
+
+2024-11-21 11:00:34.2504 Info Test regresyjny IBDADeviceName0001: Dodanie przycisku usuń wniosek
+
+2024-11-21 11:00:34.2504 Info Data rozpoczęcia testu: 2024-11-21 11:00
+
+2024-11-21 11:00:37.2571 Info Wyświetlona strona: nAxiom
+
+2024-11-21 11:00:40.2942 Info Rozwinięto menu Rejestracja
+
+2024-11-21 11:00:43.3321 Info Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-11-21 11:00:43.3333 Error Asercja nie przeszła: expected = Delete application button, actual = null
+
+</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

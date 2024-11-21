@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="a0577856-0559-4d24-808e-434aa7e9840c" name="@MacBook-Pro-Wojciech-2 2024-11-21 11:24:05" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-11-21T11:24:05.9893070+01:00" queuing="2024-11-21T11:24:05.9893070+01:00" start="2024-11-21T11:23:55.9137140+01:00" finish="2024-11-21T11:24:14.9900170+01:00" />
+  <TestSettings name="default" id="cb1c084c-46a5-4498-8db5-55ec54e23dd9">
+    <Deployment runDeploymentRoot="_MacBook-Pro-Wojciech-2_2024-11-21_11_24_05" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="67ef8e3e-8281-4a71-85b3-b71a817f5337" testId="a7a49bcc-26e1-c0b5-27eb-59bbb06ce3bf" testName="IBDADeviceName0000" computerName="MacBook-Pro-Wojciech-2" duration="00:00:05.0864330" startTime="2024-11-21T11:24:09.7789910+01:00" endTime="2024-11-21T11:24:14.8655340+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67ef8e3e-8281-4a71-85b3-b71a817f5337">
+      <Output>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.71)</Message>
+          <StackTrace>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_Url()
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.DiscoverElement(IWebDriver driver, ISearchContext context, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 53
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.GetElement(IWebDriver driver, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 16
+   at IBDA_automationTests.Framework.PageObjects.PomBase.get_RelatedElement() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 15
+   at IBDA_automationTests.Framework.PageObjects.PomBase.Select[T](String selector, Int32 timeoutSeconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 27
+   at IBDA_automationTests.Framework.PageObjects.EntryPages.Login.LoginPage.get_Username() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/EntryPages/Login/LoginPage.cs:line 10
+   at IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00.initialSetup() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/NewApplication_00.cs:line 53
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="abf209a2-4220-4124-8917-d15ee304788c" testId="3d01c682-f229-3cad-0f30-745c0dda79d3" testName="Test" computerName="MacBook-Pro-Wojciech-2" duration="00:00:05.1007270" startTime="2024-11-21T11:24:04.5760300+01:00" endTime="2024-11-21T11:24:09.6769140+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="abf209a2-4220-4124-8917-d15ee304788c">
+      <Output>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.71)</Message>
+          <StackTrace>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_Url()
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.DiscoverElement(IWebDriver driver, ISearchContext context, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 53
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.GetElement(IWebDriver driver, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 16
+   at IBDA_automationTests.Framework.PageObjects.PomBase.get_RelatedElement() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 15
+   at IBDA_automationTests.Framework.PageObjects.PomBase.Select[T](String selector, Int32 timeoutSeconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 27
+   at IBDA_automationTests.Framework.PageObjects.EntryPages.Login.LoginPage.get_Username() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/EntryPages/Login/LoginPage.cs:line 10
+   at IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00.initialSetup() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/DeviceReservation_00.cs:line 45
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0932b950-eb3d-40ba-bfb0-634c03831951" testId="b4f090c0-25ed-74ea-9617-1841fa584417" testName="DeviceRegistrationOperator" computerName="MacBook-Pro-Wojciech-2" duration="00:00:03.0259290" startTime="2024-11-21T11:24:01.4395860+01:00" endTime="2024-11-21T11:24:04.4656030+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0932b950-eb3d-40ba-bfb0-634c03831951">
+      <Output>
+        <StdOut>2024-11-21 11:24:01.4474 Info -------------------Test rozpoczęto-------------------
+
+2024-11-21 11:24:01.4491 Info Data rozpoczęcia testu: 2024-11-21 11:23</StdOut>
+        <ErrorInfo>
+          <Message>OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.71)</Message>
+          <StackTrace>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_Title()
+   at IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000.DeviceRegistrationOperator() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/DeviceRegistration_OperatorIBDA_000.cs:line 72
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e2a10834-fb41-49cf-9188-e7aa43e445e6" testId="3314cb80-973c-cd52-ed9a-d2c7afb47cb2" testName="Test2" computerName="MacBook-Pro-Wojciech-2" duration="00:00:05.1007740" startTime="2024-11-21T11:24:04.5760300+01:00" endTime="2024-11-21T11:24:09.6769620+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2a10834-fb41-49cf-9188-e7aa43e445e6">
+      <Output>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.71)</Message>
+          <StackTrace>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_Url()
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.DiscoverElement(IWebDriver driver, ISearchContext context, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 53
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.GetElement(IWebDriver driver, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 16
+   at IBDA_automationTests.Framework.PageObjects.PomBase.get_RelatedElement() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 15
+   at IBDA_automationTests.Framework.PageObjects.PomBase.Select[T](String selector, Int32 timeoutSeconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 27
+   at IBDA_automationTests.Framework.PageObjects.EntryPages.Login.LoginPage.get_Username() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/EntryPages/Login/LoginPage.cs:line 10
+   at IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00.initialSetup() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/DeviceReservation_00.cs:line 45
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4c9fe52b-84d8-4559-a6db-9e15b33228fb" testId="ebc3f1f1-6f0b-1702-f286-9fa5b5741a71" testName="IBDADeviceName0001" computerName="MacBook-Pro-Wojciech-2" duration="00:00:05.0864530" startTime="2024-11-21T11:24:09.7789910+01:00" endTime="2024-11-21T11:24:14.8655550+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c9fe52b-84d8-4559-a6db-9e15b33228fb">
+      <Output>
+        <ErrorInfo>
+          <Message>OneTimeSetUp: OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.71)</Message>
+          <StackTrace>   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_Url()
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.DiscoverElement(IWebDriver driver, ISearchContext context, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 53
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.GetElement(IWebDriver driver, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 16
+   at IBDA_automationTests.Framework.PageObjects.PomBase.get_RelatedElement() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 15
+   at IBDA_automationTests.Framework.PageObjects.PomBase.Select[T](String selector, Int32 timeoutSeconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 27
+   at IBDA_automationTests.Framework.PageObjects.EntryPages.Login.LoginPage.get_Username() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/EntryPages/Login/LoginPage.cs:line 10
+   at IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00.initialSetup() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/NewApplication_00.cs:line 53
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DeviceRegistrationOperator" storage="/users/epizode/desktop/us_projects/at_framework/ibda_automationtests/ibda_automationtests/bin/debug/net8.0/ibda_automationtests.dll" id="b4f090c0-25ed-74ea-9617-1841fa584417">
+      <Execution id="0932b950-eb3d-40ba-bfb0-634c03831951" />
+      <TestMethod codeBase="/Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/IBDA_automationTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000" name="DeviceRegistrationOperator" />
+    </UnitTest>
+    <UnitTest name="Test" storage="/users/epizode/desktop/us_projects/at_framework/ibda_automationtests/ibda_automationtests/bin/debug/net8.0/ibda_automationtests.dll" id="3d01c682-f229-3cad-0f30-745c0dda79d3">
+      <Execution id="abf209a2-4220-4124-8917-d15ee304788c" />
+      <TestMethod codeBase="/Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/IBDA_automationTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00" name="Test" />
+    </UnitTest>
+    <UnitTest name="Test2" storage="/users/epizode/desktop/us_projects/at_framework/ibda_automationtests/ibda_automationtests/bin/debug/net8.0/ibda_automationtests.dll" id="3314cb80-973c-cd52-ed9a-d2c7afb47cb2">
+      <Execution id="e2a10834-fb41-49cf-9188-e7aa43e445e6" />
+      <TestMethod codeBase="/Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/IBDA_automationTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00" name="Test2" />
+    </UnitTest>
+    <UnitTest name="IBDADeviceName0000" storage="/users/epizode/desktop/us_projects/at_framework/ibda_automationtests/ibda_automationtests/bin/debug/net8.0/ibda_automationtests.dll" id="a7a49bcc-26e1-c0b5-27eb-59bbb06ce3bf">
+      <Execution id="67ef8e3e-8281-4a71-85b3-b71a817f5337" />
+      <TestMethod codeBase="/Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/IBDA_automationTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00" name="IBDADeviceName0000" />
+    </UnitTest>
+    <UnitTest name="IBDADeviceName0001" storage="/users/epizode/desktop/us_projects/at_framework/ibda_automationtests/ibda_automationtests/bin/debug/net8.0/ibda_automationtests.dll" id="ebc3f1f1-6f0b-1702-f286-9fa5b5741a71">
+      <Execution id="4c9fe52b-84d8-4559-a6db-9e15b33228fb" />
+      <TestMethod codeBase="/Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/IBDA_automationTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00" name="IBDADeviceName0001" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a7a49bcc-26e1-c0b5-27eb-59bbb06ce3bf" executionId="67ef8e3e-8281-4a71-85b3-b71a817f5337" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d01c682-f229-3cad-0f30-745c0dda79d3" executionId="abf209a2-4220-4124-8917-d15ee304788c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4f090c0-25ed-74ea-9617-1841fa584417" executionId="0932b950-eb3d-40ba-bfb0-634c03831951" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3314cb80-973c-cd52-ed9a-d2c7afb47cb2" executionId="e2a10834-fb41-49cf-9188-e7aa43e445e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebc3f1f1-6f0b-1702-f286-9fa5b5741a71" executionId="4c9fe52b-84d8-4559-a6db-9e15b33228fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Wyniki, których nie ma na liście" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Wszystkie załadowane wyniki" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="0" failed="5" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.5.0.0: Test execution started
+Running all tests in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/bin/Debug/net8.0/IBDA_automationTests.dll
+   NUnit3TestExecutor discovered 5 of 5 NUnit test cases using Current Discovery mode, Non-Explicit run
+Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 59930
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 59930.
+Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 59961
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 59961.
+Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 59988
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 59988.
+NUnit Adapter 4.5.0.0: Test execution complete
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="MacBook-Pro-Wojciech-2" outcome="Warning" timestamp="2024-11-21T11:24:04.4747160+01:00">
+        <Text>2024-11-21 11:24:01.4474 Info -------------------Test rozpoczęto-------------------
+
+2024-11-21 11:24:01.4491 Info Data rozpoczęcia testu: 2024-11-21 11:23
+
+</Text>
+      </RunInfo>
+      <RunInfo computerName="MacBook-Pro-Wojciech-2" outcome="Warning" timestamp="2024-11-21T11:24:09.7797950+01:00">
+        <Text>Setup failed for test fixture IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00</Text>
+      </RunInfo>
+      <RunInfo computerName="MacBook-Pro-Wojciech-2" outcome="Warning" timestamp="2024-11-21T11:24:09.7798400+01:00">
+        <Text>OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.71)
+StackTrace:    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_Url()
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.DiscoverElement(IWebDriver driver, ISearchContext context, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 53
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.GetElement(IWebDriver driver, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 16
+   at IBDA_automationTests.Framework.PageObjects.PomBase.get_RelatedElement() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 15
+   at IBDA_automationTests.Framework.PageObjects.PomBase.Select[T](String selector, Int32 timeoutSeconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 27
+   at IBDA_automationTests.Framework.PageObjects.EntryPages.Login.LoginPage.get_Username() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/EntryPages/Login/LoginPage.cs:line 10
+   at IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00.initialSetup() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/DeviceReservation_00.cs:line 45
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</Text>
+      </RunInfo>
+      <RunInfo computerName="MacBook-Pro-Wojciech-2" outcome="Warning" timestamp="2024-11-21T11:24:14.9605840+01:00">
+        <Text>Setup failed for test fixture IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00</Text>
+      </RunInfo>
+      <RunInfo computerName="MacBook-Pro-Wojciech-2" outcome="Warning" timestamp="2024-11-21T11:24:14.9606150+01:00">
+        <Text>OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.71)
+StackTrace:    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.get_Url()
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.DiscoverElement(IWebDriver driver, ISearchContext context, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 53
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.GetElement(IWebDriver driver, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 16
+   at IBDA_automationTests.Framework.PageObjects.PomBase.get_RelatedElement() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 15
+   at IBDA_automationTests.Framework.PageObjects.PomBase.Select[T](String selector, Int32 timeoutSeconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 27
+   at IBDA_automationTests.Framework.PageObjects.EntryPages.Login.LoginPage.get_Username() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/EntryPages/Login/LoginPage.cs:line 10
+   at IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00.initialSetup() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/NewApplication_00.cs:line 53
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
