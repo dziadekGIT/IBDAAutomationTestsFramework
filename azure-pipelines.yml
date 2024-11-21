@@ -12,8 +12,11 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  dockerImageName: 'ibda-tests'
-  dockerImageTag: '$(Build.BuildId)'
+- name:  dockerImageName
+  value: 'ibda-tests'
+- name:  dockerImageTag
+  value: '$(Build.BuildId)'
+- group: TestCredentials
 
 steps:
 - task: Checkout@1
@@ -71,7 +74,10 @@ steps:
 - script: |
     docker save $(dockerImageName):$(dockerImageTag) -o ibda-tests.tar
   displayName: 'Save Docker Image as TAR'
-
+#dbug
+- script: |
+    echo "TEST_OPERATORIBDA_PASSWORD=$(TEST_OPERATORIBDA_PASSWORD)"
+  displayName: 'Debug credentials'
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: 'ibda-tests.tar'
