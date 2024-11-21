@@ -19,10 +19,6 @@ steps:
 - task: Checkout@1
   displayName: 'Checkout repository'
 
-- script: |
-    echo "TEST_OPERATORIBDA_PASSWORD=$(TEST_OPERATORIBDA_PASSWORD)"
-    echo "TEST_KIEROWNIKLAB_PASSWORD=$(TEST_KIEROWNIKLAB_PASSWORD)"
-  displayName: 'Debugging environment variables'
 
 - script: |
     cat > IBDA_automationTests/config.json <<EOF
@@ -33,15 +29,15 @@ steps:
       },
       "test_kierownikLAB": {
         "username": "test_kierownikLAB",
-        "password": "$(TEST_KIEROWNIKLAB_PASSWORD)"
+        "password": "US2023!"
       },
       "test_OpiekunIBDA": {
         "username": "test_OpiekunIBDA",
-        "password": "$(TEST_OPIEKUNIBDA_PASSWORD)"
+        "password": "US2023!"
       },
       "test_PracownikBWG": {
         "username": "test_PracownikBWG",
-        "password": "$(TEST_PRACOWNIKBWG_PASSWORD)"
+        "password": "US2023!"
       },
       "test_PracownikSAP": {
         "username": "test_PracownikSAP",
@@ -49,15 +45,15 @@ steps:
       },
       "test_PracownikCBIBDA": {
         "username": "test_PracownikCBIBDA",
-        "password": "$(TEST_PRACOWNIKCBIBDA_PASSWORD)"
+        "password": "US2023!"
       },
       "test_koordynatorWydz": {
         "username": "test_koordynatorWydz",
-        "password": "$(TEST_KOORDYNATORWYDZ_PASSWORD)"
+        "password": "US2023!"
       },
       "test_KierownikDP": {
         "username": "test_KierownikDP",
-        "password": "$(TEST_KIEROWNIKDP_PASSWORD)"
+        "password": "US2023!"
       }
     }
     EOF
