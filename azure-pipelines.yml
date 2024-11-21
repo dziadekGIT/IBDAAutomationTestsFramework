@@ -16,7 +16,7 @@ variables:
   value: 'ibda-tests'
 - name:  dockerImageTag
   value: '$(Build.BuildId)'
-- group: TestCredentials
+
 
 
 
