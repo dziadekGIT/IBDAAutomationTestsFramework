@@ -25,7 +25,7 @@ steps:
     {
       "test_operatorIBDA": {
         "username": "test_operatorIBDA",
-        "password": "$(TEST_OPERATORIBDA_PASSWORD)"
+        "password": "US2023!"
       },
       "test_kierownikLAB": {
         "username": "test_kierownikLAB",
@@ -41,7 +41,7 @@ steps:
       },
       "test_PracownikSAP": {
         "username": "test_PracownikSAP",
-        "password": "$(TEST_PRACOWNIKSAP_PASSWORD)"
+        "password": "US2023!"
       },
       "test_PracownikCBIBDA": {
         "username": "test_PracownikCBIBDA",
