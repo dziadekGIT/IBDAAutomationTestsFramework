@@ -1,0 +1,28 @@
+2024-11-21 11:23:58.0819 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 ------------Rozpoczęto konfigurację testu------------
+
+2024-11-21 11:23:58.0869 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-11-21 11:24:01.0886 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Utworzono usera : test_operatorIBDA
+
+2024-11-21 11:24:01.4392 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Logowanie użytkownika: test_operatorIBDA
+
+2024-11-21 11:24:01.4474 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 -------------------Test rozpoczęto-------------------
+
+2024-11-21 11:24:01.4491 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Data rozpoczęcia testu: 2024-11-21 11:23
+
+2024-11-21 11:24:04.4670 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 -------------------Test zakończono-------------------
+
+2024-11-21 11:24:05.6601 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 ------------Rozpoczęto konfigurację testu------------
+
+2024-11-21 11:24:05.6601 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-11-21 11:24:08.6614 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Utworzono usera : test_operatorIBDA
+
+2024-11-21 11:24:09.6771 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 -------------------Test zakończono-------------------
+
+2024-11-21 11:24:10.8571 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 ------------Rozpoczęto konfigurację testu------------
+
+2024-11-21 11:24:10.8571 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-11-21 11:24:13.8583 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Utworzono usera : test_operatorIBDA
+

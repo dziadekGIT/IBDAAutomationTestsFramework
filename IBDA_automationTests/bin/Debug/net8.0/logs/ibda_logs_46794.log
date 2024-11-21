@@ -1,0 +1,74 @@
+2024-11-21 10:59:31.9161 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 ------------Rozpoczęto konfigurację testu------------
+
+2024-11-21 10:59:31.9209 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-11-21 10:59:34.9224 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Utworzono usera : test_operatorIBDA
+
+2024-11-21 10:59:35.2687 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Logowanie użytkownika: test_operatorIBDA
+
+2024-11-21 10:59:35.2759 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 -------------------Test rozpoczęto-------------------
+
+2024-11-21 10:59:35.2767 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Data rozpoczęcia testu: 2024-11-21 10:59
+
+2024-11-21 10:59:38.2962 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wyświetlona strona: nAxiom
+
+2024-11-21 10:59:41.3318 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Rozwinięto menu Rejestracja
+
+2024-11-21 10:59:44.3689 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-11-21 10:59:49.4424 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wprowadzono nazwę wniosku w pole 'Nazwa IBDA' : Test automatyczny : 2024-11-21 10:59 
+
+2024-11-21 10:59:52.4832 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wysłano png do pola 'Zdjęcia IBDA
+
+2024-11-21 11:00:02.5285 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Zapisano wniosek przyciskiem 'Zapisz'
+
+2024-11-21 11:00:12.5642 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 Wniosek zatwierdzono i rozpoczęto inicjalizacjię IBDA
+
+2024-11-21 11:00:12.6095 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceRegistration_OperatorIBDA_000 -------------------Test zakończono-------------------
+
+2024-11-21 11:00:13.9846 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 ------------Rozpoczęto konfigurację testu------------
+
+2024-11-21 11:00:13.9846 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-11-21 11:00:16.9860 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Utworzono usera : test_operatorIBDA
+
+2024-11-21 11:00:17.4013 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Logowanie użytkownika: test_operatorIBDA
+
+2024-11-21 11:00:17.4088 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 -------------------Test zakończono-------------------
+
+2024-11-21 11:00:18.5943 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 ------------Rozpoczęto konfigurację testu------------
+
+2024-11-21 11:00:18.5943 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-11-21 11:00:21.5956 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Utworzono usera : test_operatorIBDA
+
+2024-11-21 11:00:22.0393 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Logowanie użytkownika: test_operatorIBDA
+
+2024-11-21 11:00:22.0412 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 -------------------Test rozpoczęto-------------------
+
+2024-11-21 11:00:22.0412 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Test regresyjny IBDADeviceName0000: Dodanie pola z nazwą zestawu
+
+2024-11-21 11:00:22.0412 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Data rozpoczęcia testu: 2024-11-21 11:00
+
+2024-11-21 11:00:25.0476 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Wyświetlona strona: nAxiom
+
+2024-11-21 11:00:28.0862 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Rozwinięto menu Rejestracja
+
+2024-11-21 11:00:31.1342 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-11-21 11:00:31.1512 ERROR IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Asercja nie przeszła: expected = Add an IBDA set/device name, actual = null
+
+2024-11-21 11:00:34.2501 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 -------------------Test rozpoczęto-------------------
+
+2024-11-21 11:00:34.2504 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Test regresyjny IBDADeviceName0001: Dodanie przycisku usuń wniosek
+
+2024-11-21 11:00:34.2504 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Data rozpoczęcia testu: 2024-11-21 11:00
+
+2024-11-21 11:00:37.2571 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Wyświetlona strona: nAxiom
+
+2024-11-21 11:00:40.2942 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Rozwinięto menu Rejestracja
+
+2024-11-21 11:00:43.3321 INFO IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Wciśnięto przycisk w rozwiniętym menu Rejestracja : 'Nowy wniosek'
+
+2024-11-21 11:00:43.3333 ERROR IBDA_automationTests.TestsIBDA.TestFixtures.NewApplication_00 Asercja nie przeszła: expected = Delete application button, actual = null
+
