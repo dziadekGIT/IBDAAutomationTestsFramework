@@ -15,9 +15,7 @@ variables:
 - name:  dockerImageName
   value: 'ibda-tests'
 - name:  dockerImageTag
-  value: '$(Build.BuildId)'
-
-
+  value: '123'
 
 
 steps:
@@ -30,7 +28,7 @@ steps:
   displayName: 'Debugging environment variables'
 
 - script: |
-    cat > IBDA_automationTests/config.json <<EOF
+    cat > config.json <<EOF
     {
       "test_operatorIBDA": {
         "username": "test_operatorIBDA",
