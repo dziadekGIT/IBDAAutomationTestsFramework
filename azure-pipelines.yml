@@ -7,77 +7,86 @@ pr:
       - docs/**
       - README.md
 
+#macos-latest
 pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  dockerImageName: 'ibda-tests'
-  # dockerImageTag: '$(Build.BuildNumber)'  # Usuń tę linię
+- name:  dockerImageName
+  value: 'ibda-tests'
+- name:  dockerImageTag
+  value: '$(Build.BuildId)'
+
+
+
 
 steps:
 - task: Checkout@1
   displayName: 'Checkout repository'
 
-# Debug step to check Dockerfile location
 - script: |
-    find . -name Dockerfile
-  displayName: 'Locate Dockerfile'
+    echo "TEST_OPERATORIBDA_PASSWORD=$(TEST_OPERATORIBDA_PASSWORD)"
+    echo "TEST_KIEROWNIKLAB_PASSWORD=$(TEST_KIEROWNIKLAB_PASSWORD)"
+  displayName: 'Debugging environment variables'
 
-# Debug step to check Docker variables
 - script: |
-    echo "Docker Image Name: $(dockerImageName)"
-    echo "Build ID: $(Build.BuildId)"
-    echo "Build Number: $(Build.BuildNumber)"
-  displayName: 'Debug Variables'
+    cat > IBDA_automationTests/config.json <<EOF
+    {
+      "test_operatorIBDA": {
+        "username": "test_operatorIBDA",
+        "password": "$(TEST_OPERATORIBDA_PASSWORD)"
+      },
+      "test_kierownikLAB": {
+        "username": "test_kierownikLAB",
+        "password": "$(TEST_KIEROWNIKLAB_PASSWORD)"
+      },
+      "test_OpiekunIBDA": {
+        "username": "test_OpiekunIBDA",
+        "password": "$(TEST_OPIEKUNIBDA_PASSWORD)"
+      },
+      "test_PracownikBWG": {
+        "username": "test_PracownikBWG",
+        "password": "$(TEST_PRACOWNIKBWG_PASSWORD)"
+      },
+      "test_PracownikSAP": {
+        "username": "test_PracownikSAP",
+        "password": "$(TEST_PRACOWNIKSAP_PASSWORD)"
+      },
+      "test_PracownikCBIBDA": {
+        "username": "test_PracownikCBIBDA",
+        "password": "$(TEST_PRACOWNIKCBIBDA_PASSWORD)"
+      },
+      "test_koordynatorWydz": {
+        "username": "test_koordynatorWydz",
+        "password": "$(TEST_KOORDYNATORWYDZ_PASSWORD)"
+      },
+      "test_KierownikDP": {
+        "username": "test_KierownikDP",
+        "password": "$(TEST_KIEROWNIKDP_PASSWORD)"
+      }
+    }
+    EOF
+  displayName: 'Generate config.json with credentials'
 
-# Check if TEST_OPERATORIBDA_PASSWORD is set
-- script: |
-    if [ -z "$(TEST_OPERATORIBDA_PASSWORD)" ]; then
-      echo "TEST_OPERATORIBDA_PASSWORD is not set"
-      exit 1
-    else
-      echo "TEST_OPERATORIBDA_PASSWORD is set"
-    fi
-  displayName: 'Check TEST_OPERATORIBDA_PASSWORD'
 
-# Build Docker Image
 - task: Docker@2
   displayName: 'Build Docker Image'
   inputs:
     command: 'build'
     Dockerfile: '**/Dockerfile'
     tags: |
-      $(dockerImageName):$(Build.BuildNumber)
+      $(dockerImageName):$(dockerImageTag)
       $(dockerImageName):latest
 
-# List Docker images to ensure build was successful
 - script: |
-    docker images
-  displayName: 'List Docker Images'
-
-# Save Docker Image as TAR
-- script: |
-    docker save $(dockerImageName):$(Build.BuildNumber) -o ibda-tests.tar
+    docker save $(dockerImageName):$(dockerImageTag) -o ibda-tests.tar
   displayName: 'Save Docker Image as TAR'
-
-# Check if tar file exists
-- script: |
-    if [ ! -f ibda-tests.tar ]; then
-      echo "Docker image tar file not found!"
-      exit 1
-    else
-      echo "Docker image tar file exists."
-    fi
-  displayName: 'Check ibda-tests.tar Exists'
-
-# Debug credentials (opcjonalnie)
+#dbug
 - script: |
     echo "TEST_OPERATORIBDA_PASSWORD=$(TEST_OPERATORIBDA_PASSWORD)"
   displayName: 'Debug credentials'
-
-# Publish Docker Image as Artifact
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: 'ibda-tests.tar'
     artifact: 'docker-image'
-  displayName: 'Publish Docker Image as Artifact'
+  displayName: 'Publish Docker Image as Artifact'   
