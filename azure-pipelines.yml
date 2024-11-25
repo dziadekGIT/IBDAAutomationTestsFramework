@@ -11,13 +11,6 @@ pr:
 pool:
   vmImage: 'ubuntu-latest'
 
-variables:
-- name:  dockerImageName
-  value: 'ibda-tests'
-- name:  dockerImageTag
-  value: '123'
-
-
 steps:
 - task: Checkout@1
   displayName: 'Checkout repository'
