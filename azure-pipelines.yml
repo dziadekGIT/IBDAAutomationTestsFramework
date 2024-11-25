@@ -27,45 +27,6 @@ steps:
     echo "TEST_KIEROWNIKLAB_PASSWORD=$(TEST_KIEROWNIKLAB_PASSWORD)"
   displayName: 'Debugging environment variables'
 
-- script: |
-    cat > config.json <<EOF
-    {
-      "test_operatorIBDA": {
-        "username": "test_operatorIBDA",
-        "password": "$(TEST_OPERATORIBDA_PASSWORD)"
-      },
-      "test_kierownikLAB": {
-        "username": "test_kierownikLAB",
-        "password": "$(TEST_KIEROWNIKLAB_PASSWORD)"
-      },
-      "test_OpiekunIBDA": {
-        "username": "test_OpiekunIBDA",
-        "password": "$(TEST_OPIEKUNIBDA_PASSWORD)"
-      },
-      "test_PracownikBWG": {
-        "username": "test_PracownikBWG",
-        "password": "$(TEST_PRACOWNIKBWG_PASSWORD)"
-      },
-      "test_PracownikSAP": {
-        "username": "test_PracownikSAP",
-        "password": "$(TEST_PRACOWNIKSAP_PASSWORD)"
-      },
-      "test_PracownikCBIBDA": {
-        "username": "test_PracownikCBIBDA",
-        "password": "$(TEST_PRACOWNIKCBIBDA_PASSWORD)"
-      },
-      "test_koordynatorWydz": {
-        "username": "test_koordynatorWydz",
-        "password": "$(TEST_KOORDYNATORWYDZ_PASSWORD)"
-      },
-      "test_KierownikDP": {
-        "username": "test_KierownikDP",
-        "password": "$(TEST_KIEROWNIKDP_PASSWORD)"
-      }
-    }
-    EOF
-  displayName: 'Generate config.json with credentials'
-
 
 - task: Docker@2
   displayName: 'Build Docker Image'
