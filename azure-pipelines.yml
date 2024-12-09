@@ -11,15 +11,17 @@ pool:
   name: 'Default'
 
 steps:
+# 1. Sprawdzenie repozytorium
 - task: Checkout@1
   displayName: 'Checkout repository'
 
-# Sprawdzanie zawartości config.json (opcjonalne)
+# 2. Debugowanie środowiska (opcjonalne)
 - script: |
-    echo "Displaying config.json:"
-    cat config.json
-  displayName: 'Display existing config.json'
+    echo "Environment variables:"
+    printenv
+  displayName: 'Print all environment variables'
 
+# 3. Budowa obrazu Dockera
 - task: Docker@2
   displayName: 'Build Docker Image'
   inputs:
@@ -29,12 +31,12 @@ steps:
       $(dockerImageName):$(dockerImageTag)
       $(dockerImageName):latest
 
-- script: |
-    docker save $(dockerImageName):$(dockerImageTag) -o ibda-tests.tar
-  displayName: 'Save Docker Image as TAR'
-
-- task: PublishPipelineArtifact@1
+# 4. Push obrazu Dockera do GitHub Container Registry (lub innego rejestru)
+- task: Docker@2
+  displayName: 'Push Docker Image to GitHub Container Registry'
   inputs:
-    targetPath: 'ibda-tests.tar'
-    artifact: 'docker-image'
-  displayName: 'Publish Docker Image as Artifact'
+    command: 'push'
+    repository: '$(dockerImageName)'
+    tags: |
+      $(dockerImageName):$(dockerImageTag)
+      $(dockerImageName):latest
