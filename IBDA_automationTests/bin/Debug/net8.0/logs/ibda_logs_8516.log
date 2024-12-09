@@ -1,0 +1,35 @@
+2024-11-25 12:21:48.5655 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 ------------Rozpoczęto konfigurację testu------------
+
+2024-11-25 12:21:48.5702 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-11-25 12:21:51.5719 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Utworzono usera : test_operatorIBDA
+
+2024-11-25 12:21:51.9189 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Logowanie użytkownika: test_operatorIBDA
+
+2024-11-25 12:21:57.9689 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Rozwinięto menu 'Rezerwacje'
+
+2024-11-25 12:22:01.0275 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Przyciśnięto 'Nowy wniosek'
+
+2024-11-25 12:22:04.0662 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Błąd wprowadzenia nazwy IBDA w pole 'Wyszukaj' : OpenQA.Selenium.InvalidSelectorException: invalid selector
+from javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=131.0.6778.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.FindElements(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_1(ISearchContext context)
+   at OpenQA.Selenium.By.FindElements(ISearchContext context)
+   at OpenQA.Selenium.WebElement.FindElements(By by)
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.GetElements(ISearchContext context, String selector) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 33
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.<>c__DisplayClass3_0.<DiscoverElement>b__0(IWebDriver d) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 44
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.DiscoverElement(IWebDriver driver, ISearchContext context, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 42
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.GetElement(IWebElement element, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 25
+   at IBDA_automationTests.Framework.PageObjects.PomBase.Select[T](String selector, Int32 timeoutSeconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 27
+   at IBDA_automationTests.Framework.PageObjects.EntryPages.ReservationAndRegistration.NewApplicationReservation.get_SearchIbdaNameField() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/EntryPages/ReservationAndRegistration/NewApplicationReservation.cs:line 18
+   at IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00.Test() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/DeviceReservation_00.cs:line 95
+
+2024-11-25 12:22:04.0709 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 -------------------Test zakończono-------------------
+

@@ -1,0 +1,29 @@
+2024-11-25 13:36:03.8365 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 ------------Rozpoczęto konfigurację testu------------
+
+2024-11-25 13:36:03.8420 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-11-25 13:36:06.8439 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Utworzono usera : test_operatorIBDA
+
+2024-11-25 13:36:07.1586 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Logowanie użytkownika: test_operatorIBDA
+
+2024-11-25 13:36:13.2209 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Rozwinięto menu 'Rezerwacje'
+
+2024-11-25 13:36:16.2877 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Przyciśnięto 'Nowy wniosek'
+
+2024-11-25 13:36:19.4248 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Wprowadzono IBDA testowa / lab szkolenie 3/Instytut Testowy / Wydział Testowy w pole 'Wyszukaj'
+
+2024-11-25 13:36:25.6807 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Wprowadzono datę rezerwacji 'OD'
+
+2024-11-25 13:36:32.9718 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Wprowadzono datę rezerwacji 'DO'
+
+2024-11-25 13:36:41.0676 ERROR IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Błąd: System.TimeoutException: Cannot find element by selector '#k-tabstrip-tab-16958652-127e-433d-a6e6-0c663794b413-1 > span > span' after 1 seconds.
+URL:  https://ibda-test.us.edu.pl/front/form/fbc1afa5-90c9-4097-9ae7-71d98629f6bb/0
+Page Title:  nAxiom
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.DiscoverElement(IWebDriver driver, ISearchContext context, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 53
+   at IBDA_automationTests.Framework.Extensions.SeleniumExtensions.GetElement(IWebElement element, String cssSelector, Int32 seconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/Extensions/SeleniumExtensions.cs:line 25
+   at IBDA_automationTests.Framework.PageObjects.PomBase.Select[T](String selector, Int32 timeoutSeconds) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/PomBase.cs:line 27
+   at IBDA_automationTests.Framework.PageObjects.EntryPages.ReservationAndRegistration.NewApplicationReservation.get_researchDecritpionButton() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/EntryPages/ReservationAndRegistration/NewApplicationReservation.cs:line 28
+   at IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00.Test() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/DeviceReservation_00.cs:line 153
+
+2024-11-25 13:36:41.0743 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 -------------------Test zakończono-------------------
+
