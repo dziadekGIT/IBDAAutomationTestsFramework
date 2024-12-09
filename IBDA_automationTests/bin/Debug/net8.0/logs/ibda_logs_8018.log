@@ -1,0 +1,22 @@
+2024-11-25 12:07:11.7348 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 ------------Rozpoczęto konfigurację testu------------
+
+2024-11-25 12:07:11.7402 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-11-25 12:07:14.7420 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Utworzono usera : test_operatorIBDA
+
+2024-11-25 12:07:15.0712 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Logowanie użytkownika: test_operatorIBDA
+
+2024-11-25 12:07:21.1291 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Rozwinięto menu 'Rezerwacje'
+
+2024-11-25 12:07:29.1705 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Błąd przycisku 'Nowy wniosek' : OpenQA.Selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.86)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at IBDA_automationTests.Framework.PageObjects.Shared.Components.Button.Click() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/Shared/Components/Button.cs:line 15
+   at IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00.Test() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/DeviceReservation_00.cs:line 78
+
+2024-11-25 12:07:29.1770 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 -------------------Test zakończono-------------------
+

@@ -1,0 +1,18 @@
+2024-11-25 12:42:24.1056 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 ------------Rozpoczęto konfigurację testu------------
+
+2024-11-25 12:42:24.1110 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-11-25 12:42:27.1127 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Utworzono usera : test_operatorIBDA
+
+2024-11-25 12:42:27.5295 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Logowanie użytkownika: test_operatorIBDA
+
+2024-11-25 12:42:33.5929 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Rozwinięto menu 'Rezerwacje'
+
+2024-11-25 12:42:36.6568 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Przyciśnięto 'Nowy wniosek'
+
+2024-11-25 12:42:39.7995 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Wprowadzono IBDA testowa / lab szkolenie 3/Instytut Testowy / Wydział Testowy w pole 'Wyszukaj'
+
+2024-11-25 12:42:43.9362 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Wprowadzono datę rezerwacji 'OD' : 2025-01-30 00:00
+
+2024-11-25 12:42:46.9448 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 -------------------Test zakończono-------------------
+

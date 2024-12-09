@@ -1,34 +1,34 @@
 {
   "test_operatorIBDA": {
     "username": "test_operatorIBDA",
-    "password": ""
+    "password": "US2023!"
   },
   "test_kierownikLAB": {
     "username": "test_kierownikLAB",
-    "password": ""
+    "password": "US2023!"
   },
   "test_OpiekunIBDA": {
     "username": "test_OpiekunIBDA",
-    "password": ""
+    "password": "US2023!"
   },
   "test_PracownikBWG": {
     "username": "test_PracownikBWG",
-    "password": ""
+    "password": "US2023!"
   },
   "test_PracownikSAP": {
     "username": "test_PracownikSAP",
-    "password": ""
+    "password": "US2023!"
   },
   "test_PracownikCBIBDA": {
     "username": "test_PracownikCBIBDA",
-    "password": ""
+    "password": "US2023!"
   },
   "test_koordynatorWydz": {
     "username": "test_koordynatorWydz",
-    "password": ""
+    "password": "US2023!"
   },
   "test_KierownikDP": {
     "username": "test_KierownikDP",
-    "password": ""
+    "password": "US2023!"
   }
 }

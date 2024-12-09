@@ -13,8 +13,19 @@ public class NewApplicationReservation :EntryPageBase
         "#button_113");
     public Button commentaryInputSelect => Select<Button>(
         "#main-container > app-form-body > nax-form-body-desktop > div:nth-child(2) > form > div > div > nax-aside > div > aside > div > nax-aside-form-comments > section > footer > kendo-textarea");
-    public TextField commentaryField => Select<TextField>("textarea[aria-multiline=\"true\"]");
-    
+    public TextField commentaryField => 
+        Select<TextField>("textarea[aria-multiline=\"true\"]");
 
-    
+    public TextField SearchIbdaNameField => 
+        Select<TextField>("input[placeholder*='Wprowadź przynajmniej 3 znaki']");
+
+    public Button reservationDateBegginging => 
+        Select<Button>("#DateAndHourStart1182 > button > kendo-icon-wrapper > kendo-svgicon");
+
+    public Button reservationDateEnd =>
+        Select<Button>("#DateAndHourEnd1183 > button > kendo-icon-wrapper > kendo-svgicon");
+
+    public Button researchDecritpionButton => Select<Button>(
+        "li > .k-link > span.ng-star-inserted");
+
 }

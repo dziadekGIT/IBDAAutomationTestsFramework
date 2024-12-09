@@ -1,0 +1,26 @@
+2024-11-25 12:39:31.7554 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 ------------Rozpoczęto konfigurację testu------------
+
+2024-11-25 12:39:31.7605 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 url: https://ibda-test.us.edu.pl/Identity/Account/Login
+
+2024-11-25 12:39:34.7623 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Utworzono usera : test_operatorIBDA
+
+2024-11-25 12:39:35.1025 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Logowanie użytkownika: test_operatorIBDA
+
+2024-11-25 12:39:41.1572 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Rozwinięto menu 'Rezerwacje'
+
+2024-11-25 12:39:44.2199 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Przyciśnięto 'Nowy wniosek'
+
+2024-11-25 12:39:47.3531 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Wprowadzono IBDA testowa / lab szkolenie 3/Instytut Testowy / Wydział Testowy w pole 'Wyszukaj'
+
+2024-11-25 12:39:55.4302 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 Błąd wprowadzenia daty rezerwacji 'OD' : OpenQA.Selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.86)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.SendKeys(String text)
+   at IBDA_automationTests.Framework.PageObjects.Shared.Fields.TextField.SetValue(String text) in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Framework/PageObjects/Shared/Fields/TextField.cs:line 9
+   at IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00.Test() in /Users/epizode/Desktop/US_Projects/AT_framework/IBDA_automationTests/IBDA_automationTests/Tests/TestFixtures/DeviceReservation_00.cs:line 109
+
+2024-11-25 12:39:55.4367 INFO IBDA_automationTests.TestsIBDA.TestFixtures.DeviceReservation_00 -------------------Test zakończono-------------------
+
