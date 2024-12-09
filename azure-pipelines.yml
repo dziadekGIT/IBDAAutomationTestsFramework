@@ -10,6 +10,10 @@ pr:
 pool:
   name: 'Default'
 
+variables:
+  dockerImageName: 'ibda-tests-image'
+  dockerImageTag: 'latest'
+
 steps:
 # 1. Sprawdzenie repozytorium
 - task: Checkout@1
