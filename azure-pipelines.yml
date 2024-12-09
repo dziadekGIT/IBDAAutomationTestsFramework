@@ -6,13 +6,14 @@ pr:
     exclude:
       - docs/**
       - README.md
+variables:
+  dockerImageName: 'ibda-tests-image'
+  dockerImageTag: 'latest'
 
 pool:
   name: 'Default'
 
-variables:
-  dockerImageName: 'ibda-tests-image'
-  dockerImageTag: 'latest'
+
 
 steps:
 # 1. Sprawdzenie repozytorium
