@@ -6,6 +6,7 @@ pr:
     exclude:
       - docs/**
       - README.md
+
 variables:
   dockerImageName: 'ibda-tests-image'
   dockerImageTag: 'latest'
