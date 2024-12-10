@@ -36,7 +36,15 @@ stages:
       displayName: Save Docker image as TAR
 
     # Publish TAR file as artifact
-    - task: PublishBuildArtifacts@1
+#    - task: PublishBuildArtifacts@1
+#      inputs:
+#        pathtoPublish: '$(Build.ArtifactStagingDirectory)'
+#        artifactName: 'docker-image'
+    - task: Docker@2
+      displayName: Push Docker Image to Docker Hub
       inputs:
-        pathtoPublish: '$(Build.ArtifactStagingDirectory)'
-        artifactName: 'docker-image'
+        command: push
+        containerRegistry: 'DockerHubConnection'
+        repository: 'wojciechstroz/ibda_at'
+        tags: |
+          $(tag)
