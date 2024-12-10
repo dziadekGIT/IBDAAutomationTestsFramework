@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IBDA_automationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c1953e598995571922c556abe76486c3c41f4b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05be9880cafca29e319e084f309bb4efe6c6e1cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("IBDA_automationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IBDA_automationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
