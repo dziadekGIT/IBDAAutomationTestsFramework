@@ -26,7 +26,8 @@ stages:
       inputs:
         command: build
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
-        repository: 'ibda-at'
+#        repository: 'ibda-at'
+        repository: 'wojciechstroz/ibda_at' 
         tags: |
           $(tag)
 
