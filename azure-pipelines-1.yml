@@ -39,4 +39,4 @@ stages:
     - task: PublishBuildArtifacts@1
       inputs:
         pathtoPublish: '$(Build.ArtifactStagingDirectory)'
-        artifactName: 'image-$(tag).tar'
+        artifactName: 'docker-image'
