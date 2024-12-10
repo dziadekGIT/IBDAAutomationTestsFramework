@@ -9,7 +9,7 @@ resources:
 - repo: self
 
 variables:
-  tag: '$(Build.BuildId)'
+  tag: 'latest'
 
 stages:
 - stage: Build
@@ -31,11 +31,11 @@ stages:
 
     # Save Docker image as TAR file
     - script: |
-        docker save -o $(Build.ArtifactStagingDirectory)/image.tar $(tag)
+        docker save -o $(Build.ArtifactStagingDirectory)/image-$(tag).tar $(tag)
       displayName: Save Docker image as TAR
 
     # Publish TAR file as artifact
     - task: PublishBuildArtifacts@1
       inputs:
         pathtoPublish: '$(Build.ArtifactStagingDirectory)'
-        artifactName: 'docker-image-$(tag)'
+        artifactName: 'docker-$(tag).tar'
