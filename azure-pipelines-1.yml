@@ -26,13 +26,13 @@ stages:
       inputs:
         command: build
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
-        repository: 'ibda-AT'
+        repository: 'ibda-at'
         tags: |
           $(tag)
 
     # Save Docker image as TAR file
     - script: |
-        docker save -o $(Build.ArtifactStagingDirectory)/image-$(tag).tar ibda-AT:$(tag)
+        docker save -o $(Build.ArtifactStagingDirectory)/image-$(tag).tar ibda-at:$(tag)
       displayName: Save Docker image as TAR
 
     # Publish TAR file as artifact
