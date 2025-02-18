@@ -1,12 +1,15 @@
 trigger: none
 
 pool:
-  name: US_ING  
+  name: US_ING  # Pool agentów działających na workerach
 
 jobs:
 - job: GPU_Benchmark
-  displayName: "Check NVIDIA GPU"
+  displayName: "Check NVIDIA GPU on Host"
   steps:
   - script: |
-      docker run --rm --gpus all nvidia/cuda:11.8.0-base-ubuntu22.04 nvidia-smi
-    displayName: "Run nvidia-smi in Docker"
+      mkdir -p ~/.ssh
+      echo "$(AZURE_SSH_KEY)" > ~/.ssh/id_rsa
+      chmod 600 ~/.ssh/id_rsa
+      ssh -i ~/.ssh/id_rsa wojciechstroz@$10.0.0.21 "nvidia-smi"
+    displayName: "Run nvidia-smi via SSH on Host"
