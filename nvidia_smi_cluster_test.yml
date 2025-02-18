@@ -11,5 +11,5 @@ jobs:
       mkdir -p ~/.ssh
       echo "$(AZURE_SSH_KEY)" > ~/.ssh/id_rsa
       chmod 600 ~/.ssh/id_rsa
-      ssh -i ~/.ssh/id_rsa wojciechstroz@$10.0.0.21 "nvidia-smi"
+      ssh -i ~/.ssh/id_rsa wojciechstroz@worker1.using.us.edu.pl "nvidia-smi"
     displayName: "Run nvidia-smi via SSH on Host"
