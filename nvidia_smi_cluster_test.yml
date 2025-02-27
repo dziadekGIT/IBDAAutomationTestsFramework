@@ -1,0 +1,15 @@
+trigger: none
+
+pool:
+  name: US_ING  # Pool agentów działających na workerach
+
+jobs:
+- job: GPU_Benchmark
+  displayName: "Check NVIDIA GPU on Host"
+  steps:
+  - script: |
+      mkdir -p ~/.ssh
+      echo "$(AZURE_SSH_KEY)" > ~/.ssh/id_rsa
+      chmod 600 ~/.ssh/id_rsa
+      ssh -i ~/.ssh/id_rsa wojciechstroz@worker1.using.us.edu.pl "nvidia-smi"
+    displayName: "Run nvidia-smi via SSH on Host"
